@@ -1,1 +1,1 @@
-repository for studying Spring Framework
+Repository for studying Spring Framework
