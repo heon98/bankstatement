@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--타임리프: 서버사이드 HTML 렌더링(SSR) -->
+<!-- 페이지가 어느정도 정적이고, 빠른 생산성이 필요한 경우 백엔드 개발자가 프론트 개발을 해야할 일이 있을 때 -->
+<!-- 간단한 프론트 구성을 위해 좋은 선택지 중에 하나 -->
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<header th:if=${bankProperties}>
+    <p th:text="${bankProperties.name}"></p>
+</header>
+</body>
+</html>
